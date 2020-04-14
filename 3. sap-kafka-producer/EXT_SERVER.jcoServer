@@ -1,0 +1,20 @@
+
+#A sample confidguration for a standard registered server 
+#Replace the dummy values and put this file in the working directory.
+#In eclipse environment it is the project root directory.
+jco.server.connection_count=2
+jco.server.gwhost=localhost
+jco.server.progid=ZMP_JCO_SERVER
+jco.server.gwserv=sapgw00
+jco.server.repository_destination=ABAP_AS1
+
+
+# "Client"
+jco.client.lang=en
+jco.destination.peak_limit=10
+jco.client.client=001
+jco.client.sysnr=00
+jco.destination.pool_capacity=3
+jco.client.ashost=ec2-100-25-240-230.compute-1.amazonaws.com
+jco.client.user=pangmi
+jco.client.passwd=wombat
