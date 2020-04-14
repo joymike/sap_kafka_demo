@@ -6,7 +6,7 @@ I've changed a few lines to connect to my EC2 instance.
 I used this code to test my JCo setup.
 
 ```script
-javac -cp ~/sapjco30/sapjco3.jar:/opt/kafka/libs/* StepByStepServer.java
+javac -cp ~/sapjco30/sapjco3.jar StepByStepServer.java
 
-java -cp ~/sapjco30/sapjco3.jar:/opt/kafka/libs/*:. StepByStepServer
+java -cp ~/sapjco30/sapjco3.jar:. StepByStepServer
 ```
