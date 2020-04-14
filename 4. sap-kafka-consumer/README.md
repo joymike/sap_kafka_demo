@@ -14,5 +14,11 @@ Flow:
 
 
 I've combined the code from SAP example and KAFKA consumer example found online.
-https://www.tutorialkart.com/apache-kafka/kafka-consumer-with-example-java-application/
+https://www.tutorialkart.com/apache-kafka/kafka-consumer-with-example-java-application/  
 The code is old with depricated methods, but it works.
+
+
+```script
+javac -cp ~/sapjco30/sapjco3.jar:/opt/kafka/libs/* -Xlint:deprecation *.java
+java -cp ~/sapjco30/sapjco3.jar:/opt/kafka/libs/*:. SapKafkaConsumeDemo
+```
